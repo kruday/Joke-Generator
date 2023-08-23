@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Random Joke Generator</h1>
+        </div>
+        <div class="sub-heading">
+            <h2>Here is the Joke for you, hope it brings smile on your face 😆</h2>
+        </div>
+
+        <div class="loading">
+            <p id="loading">Loading..</p>
+        </div>
+
+        <div id="joke-container" class="joke-container">
+            <!-- This will be replaced with a random joke -->
+            <p id="text" class="text">I asked the surgeon if I could administer my own anesthetic, they said: go ahead,
+                knock yourself out.</p>
+            <button id="btn" type="button" onclick="fetchData()" class="btn">Generate Random Joke</button>
+        </div>
+        <footer>
+            <p class="footer">Made with ❤️ by Aman</p>
+        </footer>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
